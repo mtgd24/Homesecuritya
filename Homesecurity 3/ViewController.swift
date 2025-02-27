@@ -14,6 +14,11 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func buttontaped(_ sender: Any) {
+        
+        let storyboard = self.storyboard?.instantiateViewController(withIdentifier: "firstViewController") as! firstViewController
+        self.navigationController?.pushViewController(storyboard, animated: true)
+    }
+    
 }
 

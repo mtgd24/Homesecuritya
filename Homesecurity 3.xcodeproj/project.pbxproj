@@ -18,6 +18,7 @@
 		659198992D70693C00099F6E /* Homesecurity_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659198982D70693C00099F6E /* Homesecurity_3UITests.swift */; };
 		6591989B2D70693D00099F6E /* Homesecurity_3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591989A2D70693D00099F6E /* Homesecurity_3UITestsLaunchTests.swift */; };
 		659198AE2D70741000099F6E /* test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659198AD2D70741000099F6E /* test1.swift */; };
+		659198B62D70774E00099F6E /* firstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659198B52D70774E00099F6E /* firstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		659198982D70693C00099F6E /* Homesecurity_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homesecurity_3UITests.swift; sourceTree = "<group>"; };
 		6591989A2D70693D00099F6E /* Homesecurity_3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homesecurity_3UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		659198AD2D70741000099F6E /* test1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test1.swift; sourceTree = "<group>"; };
+		659198B52D70774E00099F6E /* firstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				659198802D70693C00099F6E /* Assets.xcassets */,
 				659198822D70693C00099F6E /* LaunchScreen.storyboard */,
 				659198852D70693C00099F6E /* Info.plist */,
+				659198B52D70774E00099F6E /* firstViewController.swift */,
 			);
 			path = "Homesecurity 3";
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				659198782D70693800099F6E /* AppDelegate.swift in Sources */,
 				6591987A2D70693800099F6E /* SceneDelegate.swift in Sources */,
 				659198AE2D70741000099F6E /* test1.swift in Sources */,
+				659198B62D70774E00099F6E /* firstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
