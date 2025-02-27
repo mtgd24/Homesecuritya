@@ -101,6 +101,12 @@
 		659198762D70693800099F6E /* Homesecurity 3 */ = {
 			isa = PBXGroup;
 			children = (
+				659198B42D7075E100099F6E /* ViewModels */,
+				659198B32D7075D400099F6E /* Models */,
+				659198B22D7075CB00099F6E /* Utilities */,
+				659198B12D7075C100099F6E /* Services */,
+				659198B02D7075B300099F6E /* Resources */,
+				659198AF2D70757C00099F6E /* ViewControllers */,
 				659198AC2D7073F600099F6E /* Applications */,
 				659198772D70693800099F6E /* AppDelegate.swift */,
 				659198792D70693800099F6E /* SceneDelegate.swift */,
@@ -136,6 +142,48 @@
 				659198AD2D70741000099F6E /* test1.swift */,
 			);
 			path = Applications;
+			sourceTree = "<group>";
+		};
+		659198AF2D70757C00099F6E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		659198B02D7075B300099F6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		659198B12D7075C100099F6E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		659198B22D7075CB00099F6E /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		659198B32D7075D400099F6E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		659198B42D7075E100099F6E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
