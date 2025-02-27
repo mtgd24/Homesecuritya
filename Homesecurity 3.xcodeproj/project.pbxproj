@@ -16,6 +16,7 @@
 		6591988F2D70693C00099F6E /* Homesecurity_3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591988E2D70693C00099F6E /* Homesecurity_3Tests.swift */; };
 		659198992D70693C00099F6E /* Homesecurity_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659198982D70693C00099F6E /* Homesecurity_3UITests.swift */; };
 		6591989B2D70693D00099F6E /* Homesecurity_3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591989A2D70693D00099F6E /* Homesecurity_3UITestsLaunchTests.swift */; };
+		659198AE2D70741000099F6E /* test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659198AD2D70741000099F6E /* test1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		659198942D70693C00099F6E /* Homesecurity 3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homesecurity 3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		659198982D70693C00099F6E /* Homesecurity_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homesecurity_3UITests.swift; sourceTree = "<group>"; };
 		6591989A2D70693D00099F6E /* Homesecurity_3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homesecurity_3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		659198AD2D70741000099F6E /* test1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		659198762D70693800099F6E /* Homesecurity 3 */ = {
 			isa = PBXGroup;
 			children = (
+				659198AC2D7073F600099F6E /* Applications */,
 				659198772D70693800099F6E /* AppDelegate.swift */,
 				659198792D70693800099F6E /* SceneDelegate.swift */,
 				6591987B2D70693800099F6E /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				6591989A2D70693D00099F6E /* Homesecurity_3UITestsLaunchTests.swift */,
 			);
 			path = "Homesecurity 3UITests";
+			sourceTree = "<group>";
+		};
+		659198AC2D7073F600099F6E /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				659198AD2D70741000099F6E /* test1.swift */,
+			);
+			path = Applications;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				6591987C2D70693800099F6E /* ViewController.swift in Sources */,
 				659198782D70693800099F6E /* AppDelegate.swift in Sources */,
 				6591987A2D70693800099F6E /* SceneDelegate.swift in Sources */,
+				659198AE2D70741000099F6E /* test1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
