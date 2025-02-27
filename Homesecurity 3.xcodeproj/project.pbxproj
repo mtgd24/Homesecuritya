@@ -78,6 +78,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28126C482D7074B10096DF32 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		6591986B2D70693800099F6E = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +108,7 @@
 		659198762D70693800099F6E /* Homesecurity 3 */ = {
 			isa = PBXGroup;
 			children = (
+				28126C482D7074B10096DF32 /* ViewController */,
 				659198AC2D7073F600099F6E /* Applications */,
 				659198772D70693800099F6E /* AppDelegate.swift */,
 				659198792D70693800099F6E /* SceneDelegate.swift */,
