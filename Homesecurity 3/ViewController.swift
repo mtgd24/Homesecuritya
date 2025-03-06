@@ -20,5 +20,15 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(storyboard, animated: true)
     }
     
+    @IBAction func test(_ sender: UIButton) {
+        showAlert(message: "Please enter both email and password")
+
+    }
+    
+    private func showAlert(message: String) {
+        let alert = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default))
+        present(alert, animated: true)
+    }
 }
 
